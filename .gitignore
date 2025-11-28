@@ -1,0 +1,42 @@
+# Azure files
+*.tfstate
+*.tfstate.*
+.terraform/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# PowerShell
+.PSScriptAnalyzerSettings.psd1
+
+# Local files
+*.local
+local/
+
+# Logs
+*.log
+logs/
+
+# Dependencies
+node_modules/
+venv/
+
+# Build outputs
+dist/
+build/
+
+# Test coverage
+.coverage
+htmlcov/
+
+# Credentials and secrets
+.env
+.env.local
+secrets/
+*.pem
+*.key
